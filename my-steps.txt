@@ -89,8 +89,13 @@ jasonwasham@MacBook-Air unit1-git-practice % rm -r drinks
 ### Step 4
 jasonwasham@MacBook-Air ~ % cd /Users/jasonwasham/Desktop/unit1-git-practice 
 jasonwasham@MacBook-Air unit1-git-practice % git init
+jasonwasham@MacBook-Air unit1-git-practice % git add .
+jasonwasham@MacBook-Air unit1-git-practice % git commit -m 'first commit'
 
 ### Step 5
+git remote add origin https://github.com/jjwasham/unit1-git-practice.git
+git branch -M main
+git push -u origin main
 
 
 ### Step 6
